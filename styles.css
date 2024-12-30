@@ -40,7 +40,7 @@ footer{
     background-color: rgb(69, 69, 119);
     color: white;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 
 }
 html{
@@ -112,6 +112,10 @@ color: white;
 display: flex;
 justify-content: center;
 
+}
+.to-action button{
+
+    border-radius: 5px;
 }
 /* left off on top give padding to text*/
 .hero button {
