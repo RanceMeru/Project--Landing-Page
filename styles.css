@@ -105,6 +105,14 @@ header {
     margin-bottom: 20px;
     padding-right: 100px;
 }
+
+.to-action{
+
+color: white;
+display: flex;
+justify-content: center;
+
+}
 /* left off on top give padding to text*/
 .hero button {
     background-color: #3882F6;
