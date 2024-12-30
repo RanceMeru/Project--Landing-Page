@@ -1,20 +1,25 @@
 
 /*I will make the organization of each part so that I can 
 make it look as close as possible to the example webpage */
-header{
-    background-color: cyan;
+header {
+    background-color: rgb(40, 74, 130);
     color: aliceblue;
 }
-
-
-.headerlinks{
+/*this makes the header hyperlinks remove the 
+underline and change the color to white*/
+header a{
     text-decoration: none;
+    color: aliceblue;
+}
+/*this removes the bullet points for the header links*/
+header ul{
 
-
+    list-style: none;
 }
 
-
-sub{
-
+button{ 
+ color: white;
+ background-color: #467fdb;
+ font-weight: 500;
 
 }
