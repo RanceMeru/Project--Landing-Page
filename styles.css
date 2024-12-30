@@ -74,6 +74,9 @@ header {
     justify-content: space-between;
     align-items: center;
     margin-top: 50px;
+    padding: 80px;
+    gap: 100px;
+    
 }
 
 .hero-content {
