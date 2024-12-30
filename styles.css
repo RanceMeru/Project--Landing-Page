@@ -39,12 +39,20 @@ button{
 footer{
     background-color: rgb(69, 69, 119);
     color: white;
-    
+    display: flex;
+    justify-content: space-between;
+
 }
 html{
 background-color: black;
+padding-left: 100px;
+padding-right: 100px;
 }
 
+footer button{
+
+    border-radius: 5px;
+}
 
 
 header {
@@ -66,6 +74,7 @@ header {
 .headerlinks a {
     color: #E5E7EB;
     text-decoration: none;
+
 }
 
 
@@ -94,8 +103,9 @@ header {
     font-size: 18px;
     color: #E5E7EB;
     margin-bottom: 20px;
+    padding-right: 100px;
 }
-
+/* left off on top give padding to text*/
 .hero button {
     background-color: #3882F6;
     color: #F9FAF8;
