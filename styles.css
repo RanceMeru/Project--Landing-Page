@@ -1,4 +1,14 @@
+
+/*I will make the organization of each part so that I can 
+make it look as close as possible to the example webpage */
+header{
+    background-color: cyan;
+    color: aliceblue;
+}
+
+
 .headerlinks{
+    text-decoration: none;
 
 
 }
