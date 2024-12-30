@@ -40,3 +40,69 @@ footer{
     background-color: rgb(69, 69, 119);
     color: white;
 }
+
+
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headerlinks ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+}
+
+.headerlinks li {
+    margin-left: 20px;
+}
+
+.headerlinks a {
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.hero-content {
+    flex: 1;
+    margin-right: 50px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-bottom: 20px;
+}
+
+.hero button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.hero img {
+    flex: 1;
+    max-width: 50%;
+    height: auto;
+}
+
