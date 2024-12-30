@@ -103,7 +103,8 @@ header {
     font-size: 18px;
     color: #E5E7EB;
     margin-bottom: 20px;
-    padding-right: 100px;
+    padding-right: 50px;
+    text-wrap: wrap;
 }
 
 .to-action{
