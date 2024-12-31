@@ -17,6 +17,12 @@ header ul{
     list-style: none;
 }
 
+.randomInfo{
+
+    color:black;
+    background-color: white;
+}
+
 button{ 
  color: white;
  background-color: #467fdb;
@@ -34,10 +40,11 @@ button{
 makes a margin to the right*/
 .firstbody h3 {
 
-    margin-left: auto;
-    margin-right: 800px;
-    margin-left: 100px;
+    /*margin-left: auto;
+    margin-right: 800px;*/
+    
 }
+
 
 .inspiringquote{
     background-color: lightgray;
@@ -65,7 +72,8 @@ footer button{
     border-radius: 5px;
 }
 
-
+/*can try have them centered then pushed away from each
+other with a margin or gap*/
 header {
     display: flex;
     justify-content: space-between;
@@ -76,7 +84,9 @@ header {
     display: flex;
     list-style-type: none;
     padding: 0;
-    margin-right: 100px;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
 }
 
 .headerlinks li {
@@ -121,10 +131,16 @@ header {
 
 .to-action{
 
-color: white;
+color: black;
 display: flex;
 justify-content: center;
+font-size: 20px;
 
+}
+
+.to-action p{
+font-size: 15px;
+    
 }
 .to-action button{
 
