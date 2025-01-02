@@ -109,14 +109,12 @@ header {
     margin-top: 50px;
     padding: 80px;
     gap: 100px;
-
+    margin-bottom: -20px;
     
 }
 
-.hero-content {
-    flex: 1;
-    margin-right: 50px;
-}
+
+
 
 .hero h1 {
     font-size: 48px;
