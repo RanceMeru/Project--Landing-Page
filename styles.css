@@ -17,12 +17,6 @@ header ul{
     list-style: none;
 }
 
-.randomInfo{
-
-    color:black;
-    background-color: white;
-    
-}
 
 button{ 
  color: white;
@@ -150,7 +144,8 @@ header {
 
     justify-content: center;
     align-items: center;
-    text-align: center;}
+    text-align: center;
+}
 
 /*this will have the border*/
 .to-action {
@@ -236,9 +231,37 @@ header {
     display: flex;
     justify-content: space-between;
     align-content: center;
-    padding: 80px;
+    padding: 10px;/*changes the padding between the random heading*/
+
+    
+}
+.randomInfo{
+
+    color:black;
+    background-color: white;
+    text-align: center;
     
 }
 
+.randomInfo .image-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Adjust this value to control spacing between images */
+    margin-bottom: 1px; /* Space between images and subtext */
+}
 
+.randomInfo .image-container img {
+    width: 100px; /* Adjust as needed */
+    height: 100px; /* Adjust as needed */
+    object-fit: cover; /* This ensures images maintain their aspect ratio */
+}
 
+.randomInfo sub {
+    display: inline-block;
+    width: 100px; /* Should match the width of the images */
+    margin: 0 10px; /* Adjust horizontal spacing between subtexts */
+    border: 1px solid transparent;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 0.8em; /* Adjust as needed */
+}
