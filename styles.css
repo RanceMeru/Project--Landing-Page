@@ -21,6 +21,7 @@ header ul{
 
     color:black;
     background-color: white;
+    
 }
 
 button{ 
@@ -108,6 +109,7 @@ header {
     margin-top: 50px;
     padding: 80px;
     gap: 100px;
+
     
 }
 
@@ -133,11 +135,12 @@ header {
 
 /*this will have the border*/
 .to-action {
-
-    position: absolute;
+    /* or absolute, depending on your layout */
     left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%,);
+    bottom: 30px; /* Adjust this value to set distance from bottom */
+    transform: translateX(55%);
+    margin-bottom: 5px;
+    
     color: white;
     display: inline-flex;
     align-items: center;
@@ -151,6 +154,7 @@ header {
     height: 60px;
     background-color: blue;
 }
+
 
 .to-action p {
     font-size: 15px;
@@ -193,4 +197,6 @@ header {
     padding: 80px;
     
 }
+
+
 
