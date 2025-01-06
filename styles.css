@@ -40,28 +40,31 @@ makes a margin to the right*/
     
 }
 
-
-.inspiringquote{
+/*make changes to have more padding for text to less bottom*/
+.inspiring-quote{
     background-color: lightgray;
     word-wrap: break-word;
     margin-bottom: 20px;
     margin-top: 20px;
     font-size: 20px;
 
-    /* New properties for the invisible box and centering */
-    width: 80%;  /* Adjust as needed */
-    max-width: 600px;  /* Adjust as needed */
-    height: auto;  /* Allows height to adjust to content */
-    padding: 20px;
-    border: 1px solid transparent;  /* Invisible border */
-    border-radius: 5px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
+   
 
+}
+.inspiring-quote p{
+
+ /* New properties for the invisible box and centering */
+ max-width: 600px;  /* Adjust as needed */
+ height: auto;  /* Allows height to adjust to content */
+ padding: 20px;
+ border: 1px solid transparent;  /* Invisible border */
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ text-align: center;
+ margin-left: auto;
+ margin-right: auto;
+    
 }
 .Thorquote{
     font-weight: bold;
