@@ -29,6 +29,7 @@ button{
  color: white;
  background-color: #467fdb;
  font-weight: 500;
+ width: 100px;
 
 }
 .firstbody{
@@ -244,6 +245,7 @@ header {
     background-color: rgb(57, 138, 224); /* Make button background transparent */
     border: 1px solid #000; /* Add a border to the button */
     cursor: pointer;
+    width: 100px;
 }
 
 .the-footend {
@@ -268,15 +270,18 @@ header {
     align-items: center; /* Changed from align-content for better alignment */
     padding: 10px;
     background-color: #f9f9f9;
+    
+
 }
 
 .image-container img {
     display: inline-block;
-    border: 3px solid #3291e9; /* Blue border around each image */
+    border: 6px solid #3291e9; /* Blue border around each image */
     margin: 5px; /* Add some space between images */
     padding: 5px; /* Add some padding inside the border */
     box-sizing: border-box; /* Ensure padding doesn't affect overall size */
     border-radius: 5px;
+
 }
 
 
@@ -296,8 +301,8 @@ header {
 }
 
 .randomInfo .image-container img {
-    width: 100px; /* Adjust as needed */
-    height: 100px; /* Adjust as needed */
+    width: 200px; /* Adjust as needed */
+    height: 200px; /* Adjust as needed */
     object-fit: cover; /* This ensures images maintain their aspect ratio */
 }
 
