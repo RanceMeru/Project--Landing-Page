@@ -18,6 +18,7 @@ header ul{
 }
 
 
+
 button{ 
  color: white;
  background-color: #467fdb;
@@ -134,6 +135,8 @@ header {
 
 
 
+
+
 .hero h1 {
     font-size: 48px;
     font-weight: bold;
@@ -152,10 +155,11 @@ header {
     display: inline-block;
     background-color: #959393;
     border: 1px solid #959393; /* Light gray border */
-    height: 200px;
-    width: 200px;
+   
     
 }
+
+
 .randomInfo h2{
 
     justify-content: center;
