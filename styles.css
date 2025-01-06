@@ -248,16 +248,25 @@ header {
     height: auto;
     
 }
-.image-container{
+.image-container {
     background-color: white;
     margin: 0px;
     display: flex;
     justify-content: space-between;
-    align-content: center;
-    padding: 10px;/*changes the padding between the random heading*/
-    
-    
+    align-items: center; /* Changed from align-content for better alignment */
+    padding: 10px;
+    background-color: #f9f9f9;
 }
+
+.image-container img {
+    display: inline-block;
+    border: 3px solid #3291e9; /* Blue border around each image */
+    margin: 5px; /* Add some space between images */
+    padding: 5px; /* Add some padding inside the border */
+    box-sizing: border-box; /* Ensure padding doesn't affect overall size */
+    border-radius: 5px;
+}
+
 .randomInfo{
 
     color:black;
