@@ -204,7 +204,7 @@ header {
 
 
 .to-action button {
-    border-radius: 15px; /* More rounded corners for the button */
+    border-radius: 5px; /* More rounded corners for the button */
     padding: 5px 15px; /* Adjust padding for a comfortable button size */
     background-color: rgb(57, 138, 224); /* Make button background transparent */
     border: 1px solid #000; /* Add a border to the button */
