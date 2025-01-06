@@ -17,6 +17,12 @@ header ul{
     list-style: none;
 }
 
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
 
 
 button{ 
@@ -71,23 +77,14 @@ makes a margin to the right*/
     font-weight: bold;
 
 }
-footer{
-    background-color: rgb(69, 69, 119);
-    color: white;
-    display: flex;
-    justify-content: center;
 
-}
 html{
 background-color: black;
 padding-left: 100px;
 padding-right: 100px;
 }
 
-footer button{
 
-    border-radius: 5px;
-}
 
 /*can try have them centered then pushed away from each
 other with a margin or gap*/
@@ -129,35 +126,46 @@ header {
     padding: 80px;
     gap: 100px;
     margin-bottom: -20px;
-    
 }
 
-
-
-
-
+.hero-class {
+    flex: 1;
+    max-width: 50%;
+}
 
 .hero h1 {
     font-size: 48px;
     font-weight: bold;
     margin-bottom: 10px;
+    color: #F9FAF8; /* Assuming you want white text on dark background */
 }
 
 .hero p {
     font-size: 18px;
     color: #E5E7EB;
     margin-bottom: 20px;
-    padding-right: 50px;
     text-wrap: wrap;
 }
-.hero img{
 
-    display: inline-block;
+.hero img {
+    flex: 1;
+    max-width: 50%;
+    height: auto;
     background-color: #959393;
-    border: 1px solid #959393; /* Light gray border */
-   
-    
+    border: 1px solid #959393;
 }
+
+.hero button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
 
 
 .randomInfo h2{
@@ -212,7 +220,12 @@ header {
     width: auto;
     height: 60px;
     background-color: rgb(40, 74, 130);
+    
+   
 
+    margin-bottom: 50px; /* This creates white space below */
+    margin-top: 50px;
+    padding: 30px
 }
 
 
@@ -231,23 +244,20 @@ header {
     cursor: pointer;
 }
 
-/* left off on top give padding to text*/
-.hero button {
-    background-color: #3882F6;
-    color: #F9FAF8;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    font-weight: bold;
-    cursor: pointer;
+.the-footend {
+    background-color: rgb(69, 69, 119);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Center content vertically */
+    padding: 20px 0;
+    min-height: 60px; /* Ensure a minimum height for the footer */
+    margin-top: 0;
+    padding: 0;
 }
 
-.hero img {
-    flex: 1;
-    max-width: 50%;
-    height: auto;
-    
-}
+
+
 .image-container {
     background-color: white;
     margin: 0px;
@@ -266,6 +276,7 @@ header {
     box-sizing: border-box; /* Ensure padding doesn't affect overall size */
     border-radius: 5px;
 }
+
 
 .randomInfo{
 
