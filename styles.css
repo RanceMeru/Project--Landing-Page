@@ -293,6 +293,7 @@ header {
     background-color: white;
     text-align: center;
     
+    
 }
 
 .randomInfo .image-container {
@@ -310,10 +311,11 @@ header {
 
 .randomInfo sub {
     display: inline-block;
-    width: 100px; /* Should match the width of the images */
+    width: 200px; /* Should match the width of the images */
     margin: 0 10px; /* Adjust horizontal spacing between subtexts */
     border: 1px solid transparent;
     border-radius: 5px;
     text-align: center;
     font-size: 0.8em; /* Adjust as needed */
+    
 }
