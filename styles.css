@@ -280,7 +280,7 @@ header {
     margin: 5px; /* Add some space between images */
     padding: 5px; /* Add some padding inside the border */
     box-sizing: border-box; /* Ensure padding doesn't affect overall size */
-    border-radius: 5px;
+    border-radius: 15px;
 
 }
 
