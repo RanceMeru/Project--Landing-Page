@@ -176,6 +176,8 @@ header {
     justify-content: center;
     align-items: center;
     text-align: center;
+    padding-top: 30px;
+    font-size: 40px;
 }
 
 /*this will have the border*/
